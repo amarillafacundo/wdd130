@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <meta name="description" content="Learn more about Whitewater Rafting Adventures. Our mission, history, and the unforgettable experiences we offer.">
+    <meta name="author" content="Facundo Amarilla">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <img src="images/z-splash.webp" alt="Rafting Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="hero">
+        <img src="images/hero-image.webp" alt="Rafting Adventure">
+        <h1>White Water Rafting</h1>
+        <article>
+            <h2>Our Mission</h2>
+            <img src="images/happy-customer.webp" alt="Happy customer enjoying a rafting adventure">
+            <p>We are committed to providing unforgettable rafting experiences. Our mission is to bring adventure to every traveler.</p>
+        </article>
+    </div>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Address:</strong>Luciano Molinas 1455, Candioti North, SF</p>
+        <p><strong>Phone:</strong> (342) 508 3411</p>
+        <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+    </section>
+    <section class="map">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.966981784995!2d-60.69227202338294!3d-31.634754406843452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a993b383d85f%3A0x98cc3b9a061d190b!2sLuciano%20Molinas%201455%2C%20S3002ATO%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1739151609375!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <figure>
+            <img src="images/employee1.webp" alt="Emily Johnson" />
+            <figcaption>Emily Johnson - Rafting Guide</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee2.webp" alt="Michael Lee" />
+            <figcaption>Michael Lee - Adventure Coordinator</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee3.webp" alt="Sophia Davis" />
+            <figcaption>Dave Hansen - Safety Officer</figcaption>
+        </figure>
+    </section>
+
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <fieldset>
+                <legend>Type of Inquiry:</legend>
+                <label><input type="radio" name="inquiry" value="general" required> General</label>
+                <label><input type="radio" name="inquiry" value="support"> Support</label>
+                <label><input type="radio" name="inquiry" value="feedback"> Feedback</label>
+            </fieldset>
+    
+            <label><input type="checkbox" name="newsletter"> Sign up for our newsletter</label>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 White water Rafting | 🚣‍♂️🌊 Facundo Amarilla 🚣‍♂️🌊 </p>
+        <p>Ver el <a href="https://app.moqups.com/NJBemL0ipY6PnuTMdOJbrR9UjESSnqDK/view/page/ad64222d5" target="_blank">wireframe de Contact Us</a> como referencia de diseño.</p> 
+        <div class="social">
+            <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
