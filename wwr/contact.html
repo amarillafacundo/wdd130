@@ -82,12 +82,13 @@
     
             <fieldset>
                 <legend>Type of Inquiry:</legend>
-                <label><input type="radio" name="inquiry" value="general" required> General</label>
-                <label><input type="radio" name="inquiry" value="support"> Support</label>
-                <label><input type="radio" name="inquiry" value="feedback"> Feedback</label>
+                <label for="general"><input type="radio" id="general" name="inquiry" value="general" required> General</label>
+                <label for="support"><input type="radio" id="support" name="inquiry" value="support"> Support</label>
+                <label for="feedback"><input type="radio" id="feedback" name="inquiry" value="feedback"> Feedback</label>
             </fieldset>
-    
-            <label><input type="checkbox" name="newsletter"> Sign up for our newsletter</label>
+            
+            <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"> Sign up for our newsletter</label>
+            
     
             <button type="submit">Send Message</button>
         </form>
