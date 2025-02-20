@@ -208,8 +208,8 @@ form {
 
 /* Call to Action */
 .cta {
-    background-color: #F4F5F8;
-    color: #222A65;
+    background-color: var(--secondary-color);
+    color: white;
     text-align: center;
     padding: 40px 20px;
 }
@@ -221,8 +221,8 @@ form {
 
 .btn {
     display: inline-block;
-    background-color: #F4F5F8;
-    color: #222A65;
+    background: #ffffff;
+    color: var(--secondary-color);
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -269,6 +269,7 @@ form {
     background: var(--secondary-color);
 }
 
+
 /* Featured Content Grid */
 .grid-container {
     display: grid;
@@ -287,12 +288,9 @@ form {
 
 .grid-item img {
     width: 100%;
-    max-width: 200px;
-    height: auto;
-    object-fit: contain; 
     border-radius: 5px;
-
 }
+
 
 /* Footer */
 footer {
